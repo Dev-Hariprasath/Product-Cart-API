@@ -47,7 +47,7 @@ Before you begin, ensure you have the following installed:
 1. **Navigate to the frontend directory:**
 
    ```bash
-   cd frontend
+   cd templates
    ```
 
 2. **Install the necessary dependencies:**
