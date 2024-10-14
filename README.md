@@ -84,11 +84,13 @@ The frontend will be available at `http://127.0.0.1:3000/`.
 
 - **GET** `/products`
   - Returns a list of all available products.
+  - ![GET Request for Product](./shopingCart/static/Get.png)
   
 ### 2. Get Cart Details
 
 - **GET** `/cart`
   - Returns the current state of the shopping cart.
+  - ![GET Request for cart](./shopingCart/static/productCart.png)
 
 ### 3. Add Item to Cart
 
@@ -110,6 +112,7 @@ The frontend will be available at `http://127.0.0.1:3000/`.
 - **PUT** `/cart/<product_id>`
   - Request body can include:
     - `quantity`: The new quantity of the item (required).
+    - ![PUT Request for cart](./shopingCart/static/yourCart.png)
   - Example request:
 
     ```json
@@ -122,6 +125,7 @@ The frontend will be available at `http://127.0.0.1:3000/`.
 
 - **DELETE** `/cart/<product_id>`
   - Deletes the specified item from the cart.
+  - ![Delete Request for cart](./shopingCart/static/yourCart.png)
 
 ## License
 
